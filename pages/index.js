@@ -11,8 +11,6 @@ import Copyright from '../components/Copyright';
 import { headerData, navData, heroData, aboutData, howData, faqData, testimonialData, footerData } from '../data.json'
 
 const Home = ({ headerData, navData, heroData, aboutData, howData, faqData, testimonialData, footerData }) => {
-
-  console.log('ddddd3', headerData)
   return (
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-page'>
       <Hero headerData={headerData} navData={navData} heroData={heroData} />
@@ -22,6 +20,7 @@ const Home = ({ headerData, navData, heroData, aboutData, howData, faqData, test
       <Testimonials testimonialData={testimonialData} />
       <Footer footerData={footerData} />
       <Copyright />
+      <div className='h-[2000px]'></div>
     </div>
   );
 };
