@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { fadeInLeft, fadeInRight, staggerTextContainer } from '../variants'
 
-
 const How = ({ howData }) => {
   const { title, subtitle, girlImg } = howData
   return <section className='mb-[60px] lg:mb-[160px]'>
